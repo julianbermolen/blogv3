@@ -1,0 +1,27 @@
+.navegador{ 
+    display: flex;
+    width: 90%;
+    margin-left: 3%;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.navegador img{
+    width: 100px;
+}
+
+.navegador .navegador-texto{
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.navegador .navegador-texto:hover{
+    border-bottom: 4px var(--primary) solid;
+}

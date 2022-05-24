@@ -1,0 +1,29 @@
+.container-posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.post{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.post-title{
+    color:var(--primary);
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.post-description{
+    font-size: 20px;
+}
+.post-date{
+    font-size: 14px;
+}
+.post-img{
+    width: 900px;
+}

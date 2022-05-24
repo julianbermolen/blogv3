@@ -1,0 +1,15 @@
+.share-hori{
+    display: flex;
+    flex-direction: row;
+}
+.share-vert{
+    display: flex;
+    flex-direction: column;
+}
+
+.share-hori .share-button{
+    margin-right: 3px;
+}
+.share-vert .share-button{
+    margin-bottom: 3px;
+}

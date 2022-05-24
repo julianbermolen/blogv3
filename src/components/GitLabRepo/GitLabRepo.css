@@ -1,0 +1,29 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--grey);
+    border-radius: 15px;
+    padding:15px;
+    margin-bottom:30px;
+    text-decoration: none;
+    color:black;
+}
+.card-container:hover{
+    border:2px solid var(--primary);
+    color:black;
+}
+.card-container-text{
+    width: 80%;
+}
+.card-container-stars{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.stars{
+    width: 50%;
+}
+.merges{
+    width: 50%;
+}

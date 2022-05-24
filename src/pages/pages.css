@@ -1,0 +1,127 @@
+.home-section{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top:70px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.jb-title{
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.jb-subtitle{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.jb-button{
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border:0px;
+    border-color: var(--third);
+    background-color: var(--third);
+    font-weight: 500;
+    font-size: 16px;
+    color:var(--primary);
+}
+
+.project-img{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.project-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.project-text{
+    font-size: 16px;
+}
+
+
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 7ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+
+.typing-text{
+    overflow:hidden;
+    border-right: .15em solid var(--primary);
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(7) infinite;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+}
+.w-auto {
+    width: auto;
+}
+
+.img-section{
+    display: flex;
+    justify-content: center;
+}
+.about-img{
+    width: 70%;
+    border-radius: 16px;
+}
+.text-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 18px;
+    align-items: center;
+    text-align: justify;
+    margin-top: 30px;
+}
+.about-text{    
+    width: 70%;
+    margin-bottom: 30px;
+}
+.blog-subtitle{
+    font-weight: 400;
+    font-size: 18px;
+}
+.container-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.container-intro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.container-markdown{
+    width: 940px;
+}
+.share-sticky{
+    position: fixed;
+    top:0;
+    right: 0;
+    margin-right: 100px;
+    padding-top: 100px;
+}
+
+.contact-button{
+    text-align: center;
+    padding-top: 12px;
+    text-decoration: none;
+}
