@@ -33,3 +33,13 @@
 .search-results:empty{
     display: none;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .container-search{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 575px){
+    .container-search{
+        width: 95%;
+    }
+}

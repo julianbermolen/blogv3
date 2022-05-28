@@ -9,7 +9,8 @@ const Blog = () => {
     const [posts, setPosts] = useState([]);
     
     const getPosts = () => {
-        let url = 'http://localhost:4000/posts/posts';
+        //let url = 'http://localhost:4000/posts/posts';
+        let url = 'https://bermo-blogv2-be.herokuapp.com/posts/posts';
         axios.get(url)
             .then(res => {
                 setPosts(res.data.Posts);

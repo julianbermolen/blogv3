@@ -125,3 +125,126 @@
     padding-top: 12px;
     text-decoration: none;
 }
+.contact-button:hover{
+    color:var(--primary);
+}
+
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    padding-top:10px;
+}
+.link-button:hover{
+    color:var(--primary);
+}
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .jb-title{
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-img{
+        width: 100%;
+        border-radius: 16px;
+    }
+    .about-text{    
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container-post{
+        width: 100%;
+    }
+    .container-intro{
+        width: 100%;
+    }
+    .container-intro img{
+        width: 100%;
+    }
+    .container-markdown{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .container-markdown img{
+        width: 100%;
+    }
+    .container-markdown a{
+        width: 90%;
+        font-size: 13px;
+    }
+    .share-sticky{
+        position: fixed;
+        top:0;
+        right: 0;
+        margin-right: 10px;
+        padding-top: 100px;
+    }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .jb-title{
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-img{
+        width: 100%;
+        border-radius: 16px;
+    }
+    .about-text{    
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container-post{
+        width: 100%;
+    }
+    .container-intro{
+        width: 100%;
+    }
+    .container-intro img{
+        width: 100%;
+    }
+    .container-markdown{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .container-markdown img{
+        width: 100%;
+    }
+    .container-markdown a{
+        width: 90%;
+        font-size: 13px;
+    }
+    .share-sticky{
+        position: fixed;
+        top:0;
+        right: 0;
+        margin-right: 10px;
+        padding-top: 100px;
+    }
+    
+}

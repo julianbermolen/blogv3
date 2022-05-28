@@ -10,11 +10,11 @@ const Home = () => {
 
                 <div className="home-section">
                     <div className="title">
-                        <h1 className="jb-title w-auto">Hola, mi nombre es&nbsp;</h1>
+                        <h1 className="w-auto jb-title">Hola, mi nombre es&nbsp;</h1>
                         <h1 className="typing-text"> Julián.</h1>
                     </div>
                     <p className="jb-subtitle">Soy Fullstack developer actualmente trabajando en Globalhitss cono sur. Este es mi blog personal donde podrás encontrar todo sobre lo que estoy trabajando y aprendiendo. Bienvenido!</p>
-                    <button className="jb-button">Más sobre mi</button>
+                    <a href="/about" className="jb-button link-button">Más sobre mi</a>
                 </div>
                 <div className="home-section">
                     <h1 className="jb-title">Proyectos seleccionados</h1>

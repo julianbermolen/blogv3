@@ -13,7 +13,7 @@ const Navegador = () => {
                             <a href="/" className="navegador-texto">Inicio</a>
                         </li>
                         <li className="navegador-boton">
-                            <a href="about" className="navegador-texto">Sobre mi</a>
+                            <a href="/about" className="navegador-texto">Sobre mi</a>
                         </li>
                         <li className="navegador-boton">
                             <a href="/blog" className="navegador-texto">Blog</a>

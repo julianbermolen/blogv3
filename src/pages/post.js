@@ -18,8 +18,8 @@ const Post = () => {
       url = String(window.location);
     }
     const getPost = (id) => {
-        let uri = 'http://127.0.0.1:4000/posts/post/'+id;
-        
+        //let uri = 'http://127.0.0.1:4000/posts/post/'+id;
+        let uri = 'https://bermo-blogv2-be.herokuapp.com/posts/post/'+id;
 
         axios.get(uri)
             .then(res => {
