@@ -9,7 +9,7 @@ const ShareButtons = (props) => {
                 <FacebookShareButton 
                             url={props.url}
                             title={props.titulo}
-                            quote={props.titulo}
+                            quote={props.descripcion}
                             hashtags={props.hashtag}
                             >
                     <FacebookIcon size={36} />                    

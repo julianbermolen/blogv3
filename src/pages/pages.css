@@ -20,14 +20,15 @@
     width: 180px;
     height: 50px;
     border-radius: 20px;
-    border:0px;
-    border-color: var(--third);
-    background-color: var(--third);
+    border:1.7px solid var(--grey);
     font-weight: 500;
     font-size: 16px;
+    color:var(--grey);
+}
+.jb-button:hover{
+    border:1.7px solid var(--primary);
     color:var(--primary);
 }
-
 .project-img{
     width: 100%;
     justify-content: center;
@@ -112,6 +113,25 @@
 .container-markdown{
     width: 940px;
 }
+p img {
+    width: 100%;
+}
+p{
+    line-height: 2.2;
+}
+pre{
+    
+    padding:10px;
+    overflow:hidden !important;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 70% !important;
+}
+ul li{
+    margin-top: 10px;
+}
+pre code{  
+    padding:30px;
+}
 .share-sticky{
     position: fixed;
     top:0;
@@ -136,6 +156,39 @@
 }
 .link-button:hover{
     color:var(--primary);
+}
+.container-newsletter{
+    margin-top: 30px;
+}
+.container-newsletter input {
+    border-radius: 10px;
+    margin-right: 10px;
+    padding:4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px solid var(--grey);
+}
+.container-newsletter button {
+    color:var(--grey);
+    border: 1.7px solid var(--grey);
+    padding:4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius:10px;
+    background-color: transparent;
+}
+.container-newsletter button:hover {
+    color:var(--primary);
+    border: 1.7px solid var(--primary);
+    padding:4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:10px;
+}
+.container-newsletter{
+    border:1px solid rgba(0,0,0,0.1);
+    padding:50px;
+    border-radius: 20px;
 }
 
 /* Escritorio extra grande */
@@ -246,5 +299,6 @@
         margin-right: 10px;
         padding-top: 100px;
     }
+    
     
 }
